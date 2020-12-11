@@ -1,0 +1,36 @@
+footer {
+  background-color: $dark-blue;
+  padding-top: 2rem;
+  padding-bottom: 1rem;
+}
+
+.footer {
+  &__logo {
+    display: block;
+    width: 140px;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  &__container-icons {
+    display: block;
+    width: 165px;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+  &__links {
+    display: block;
+  }
+  &__link {
+    text-align: center;
+    margin-bottom: 1.5rem;
+  }
+  &__copyright {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+  &__credit {
+    text-align: center;
+    margin-bottom: 0.5rem;
+  }
+}

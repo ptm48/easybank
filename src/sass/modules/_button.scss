@@ -1,0 +1,21 @@
+.button {
+  box-sizing: border-box;
+  text-align: center;
+  width: 11rem;
+  padding: 13px 0;
+  margin: auto;
+
+  &--green-blue {
+    color: white;
+    display: block;
+    border-radius: 30px;
+    background-image: linear-gradient(
+      to right,
+      hsl(136, 65%, 51%),
+      hsl(192, 70%, 51%)
+    );
+  }
+  &-footer {
+    margin-bottom: 1.5rem;
+  }
+}

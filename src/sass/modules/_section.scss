@@ -1,0 +1,13 @@
+.section {
+  display: block;
+  width: 100%;
+  &-next-gen {
+    background-color: $white;
+  }
+  &-choose {
+    background-color: $light-grayish-blue;
+  }
+  &-articles {
+    margin-top: 4rem;
+  }
+}

@@ -1,0 +1,32 @@
+.container {
+  &-main {
+    width: 100%;
+    margin: auto;
+  }
+  &-next-gen {
+    display: block;
+    margin: auto;
+    &__content-top {
+      background-image: url("../images/bg-intro-mobile.svg");
+      background-size: 100%;
+      background-repeat: no-repeat;
+      overflow: hidden;
+    }
+    &__content-bottom {
+      width: 86%;
+      margin: auto;
+      display: block;
+    }
+  }
+  &-choose {
+    width: 86%;
+    display: block;
+    margin: auto;
+    padding-bottom: 4rem;
+  }
+  &-articles {
+    width: 86%;
+    display: block;
+    margin: auto;
+  }
+}

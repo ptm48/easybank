@@ -1,0 +1,23 @@
+.image {
+  &-header-logo {
+    float: left;
+    margin: $margin-left;
+  }
+  &-burger-menu {
+    float: right;
+    margin-top: 18px;
+    margin-right: $margin-right;
+  }
+  &-mobile {
+    width: 100%;
+  }
+  &-card-choose {
+    text-align: center;
+    width: 72px;
+    height: 72px;
+    margin: auto;
+  }
+  &-article {
+    width: 100%;
+  }
+}
