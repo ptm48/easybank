@@ -1,0 +1,13 @@
+.container {
+  &-next-gen__content-top {
+    float: right;
+  }
+  &-next-gen__content-bottom {
+    width: 45%;
+    float: left;
+
+    & .title-h1 {
+      text-align: left;
+    }
+  }
+}
