@@ -1,0 +1,10 @@
+.header {
+  position: relative;
+  z-index: 200;
+  height: 90px;
+
+  &-logo-and-nav {
+    position: relative;
+    top: 10px;
+  }
+}

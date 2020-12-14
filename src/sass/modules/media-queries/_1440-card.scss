@@ -1,0 +1,12 @@
+.card {
+  &-next-gen {
+    &__bottom {
+      width: 450px;
+    }
+  }
+  &-content-bottom {
+    &__button {
+      margin: 0;
+    }
+  }
+}
