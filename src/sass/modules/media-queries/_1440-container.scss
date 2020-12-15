@@ -1,8 +1,11 @@
 @media screen and (min-width: 1440px) {
+  body {
+    margin: 0 0px;
+  }
   .container {
     &-main {
       max-width: 1440px;
-      padding-left: 200px;
+      padding-left: 0px;
     }
 
     &-next-gen__content-top {
@@ -29,10 +32,17 @@
       margin-top: 70px;
       width: 45%;
       float: left;
+      position: relative;
+      left: 170px;
+      top: 30px;
 
       & .title-h1 {
         text-align: left;
       }
+    }
+    &-choose {
+      width: 100%;
+      margin-left: 170px;
     }
   }
 }
