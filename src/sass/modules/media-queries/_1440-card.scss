@@ -39,5 +39,12 @@
         margin: 0;
       }
     }
+    &-article {
+      margin-left: 170px;
+      width: 17%;
+      display: inline-block;
+      &__image-container {
+      }
+    }
   }
 }
