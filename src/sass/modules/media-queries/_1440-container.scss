@@ -1,11 +1,12 @@
 @media screen and (min-width: 1440px) {
   body {
-    margin: 0 0px;
+    margin: auto;
   }
   .container {
     &-main {
       max-width: 1440px;
       padding-left: 0px;
+      margin: auto;
     }
 
     &-next-gen__content-top {
