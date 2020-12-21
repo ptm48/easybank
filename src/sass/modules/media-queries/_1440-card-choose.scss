@@ -1,0 +1,21 @@
+.card {
+  &-choose {
+    &__main-title {
+      padding-top: 48px;
+    }
+    &__title {
+      text-align: left;
+      margin: 0;
+      padding: 48px 0 0 0;
+    }
+    &__image {
+      text-align: left;
+      margin-bottom: 0.5rem;
+    }
+    &__content {
+      width: 85%;
+      margin-top: 24px;
+      margin-bottom: 50px;
+    }
+  }
+}

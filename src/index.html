@@ -85,7 +85,7 @@
             </div>
           </div>
 
-          <div class="card card-facility">
+          <div class="card card-feature">
             <div class="card-choose__image">
               <img
                 class="image-card-choose"
@@ -100,7 +100,7 @@
             </div>
           </div>
 
-          <div class="card card-facility">
+          <div class="card card-feature">
             <div class="card-choose__image">
               <img
                 class="image-card-choose"
@@ -115,7 +115,7 @@
             </div>
           </div>
 
-          <div class="card card-facility">
+          <div class="card card-feature">
             <div class="card-choose__image">
               <img
                 class="image-card-choose"
@@ -130,7 +130,7 @@
             </div>
           </div>
           
-          <div class="card card-facility">
+          <div class="card card-feature">
             <div class="card-choose__image">
               <img
                 class="image-card-choose"
@@ -272,58 +272,72 @@
         </div>
       </section>
 
-      <!-- ----------------------------------------------------------------------- -->
+
+
+      <!-- -----------------------------start of footer ----------------------------------------->
       <footer class="footer">
-        <img class="footer__logo" src="./images/logo.svg" alt="" />
-        <div class="footer__container-icons">
-          <img
-            class="footer__icon mr-0P6"
-            src="./images/icon-facebook.svg"
-            alt=""
-          />
-          <img
-            class="footer__icon mr-0P6"
-            src="./images/icon-youtube.svg"
-            alt=""
-          />
-          <img
-            class="footer__icon mr-0P6"
-            src="./images/icon-twitter.svg"
-            alt=""
-          />
-          <img
-            class="footer__icon mr-0P6"
-            src="./images/icon-pinterest.svg"
-            alt=""
-          />
-          <img class="footer__icon" src="./images/icon-instagram.svg" alt="" />
+        <!--use this container in desktop layout to group icons, logo and links -->
+        <div class="footer__wrapper-icon-and-links">
+        <!-- The above container wraps the icons, logo and the links -->
+          <img class="footer__logo" src="./images/logo.svg" alt="" />
+
+          <!-- This container wraps all the icons -->
+          <div class="footer__wrapper-icons">
+            <img
+              class="footer__icon mr-0P6"
+              src="./images/icon-facebook.svg"
+              alt=""
+            />
+            <img
+              class="footer__icon mr-0P6"
+              src="./images/icon-youtube.svg"
+              alt=""
+            />
+            <img
+              class="footer__icon mr-0P6"
+              src="./images/icon-twitter.svg"
+              alt=""
+            />
+            <img
+              class="footer__icon mr-0P6"
+              src="./images/icon-pinterest.svg"
+              alt=""
+            />
+            <img class="footer__icon" src="./images/icon-instagram.svg" alt="" />
+          </div>
+
+          <div class="container-footer-links footer__wrapper-links">
+            <ul class="footer__links footer__wrapper-links1">
+              <li class="footer__link">About Us</li>
+              <li class="footer__link">Contact</li>
+              <li class="footer__link">Blog</li>
+            </ul>
+            <ul class="footer__links footer__wrapper-links2">
+              <li class="footer__link">Careers</li>
+              <li class="footer__link">Support</li>
+              <li class="footer__link">Privacy Policy</li>
+            </ul>
+          </div>
         </div>
-
-        <ul class="footer__links">
-          <li class="footer__link">About Us</li>
-          <li class="footer__link">Contact</li>
-          <li class="footer__link">Blog</li>
-          <li class="footer__link">Careers</li>
-          <li class="footer__link">Support</li>
-          <li class="footer__link">Privacy Policy</li>
-        </ul>
-
+         
         <div class="button button-footer button--green-blue">
           Request Invite
         </div>
 
-        <div class="footer__copyright">© Easybank. All Rights Reserved</div>
-        <div class="footer__credits">
-          <div class="footer__credit">
-            Challenge by
-            <a
-              href="https://www.frontendmentor.io?ref=challenge"
-              target="_blank"
-              >Frontend Mentor</a
-            >.
-          </div>
-          <div class="footer__credit">
-            Coded by <a href="#">Paul Metcalf</a>.
+        <div class="footer__wrapper-credits">
+          <div class="footer__copyright">© Easybank. All Rights Reserved</div>
+          <div class="footer__credits">
+            <div class="footer__credit">
+              Challenge by
+              <a
+                href="https://www.frontendmentor.io?ref=challenge"
+                target="_blank"
+                >Frontend Mentor</a
+              >.
+            </div>
+            <div class="footer__credit">
+              Coded by <a href="#">Paul Metcalf</a>.
+            </div>
           </div>
         </div>
       </footer>

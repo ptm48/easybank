@@ -11,17 +11,16 @@ footer {
     margin: auto;
     margin-bottom: 2rem;
   }
-
-  &__container-icons {
+  &__icons-wrapper {
     display: block;
-    width: 165px;
-    margin: auto;
-    margin-bottom: 2rem;
-  }
-  &__links {
-    display: block;
+    width: 220px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+    text-align: center;
   }
   &__link {
+    list-style: none;
     text-align: center;
     margin-bottom: 1.5rem;
   }

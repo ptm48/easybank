@@ -49,5 +49,19 @@
       margin-left: 170px;
       width: 100%;
     }
+    &-footer-icon-links {
+      position: relative;
+      width: 500px;
+      height: 131px;
+    }
+    &-footer-icons {
+      margin-left: 0;
+      margin-bottom: 0;
+      position: absolute;
+      bottom: 0;
+    }
+    &-footer-links {
+      margin: 0;
+    }
   }
 }

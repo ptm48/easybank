@@ -1,0 +1,14 @@
+.card {
+  &-article {
+    width: 17%;
+    display: inline-block;
+    &:not(:first-of-type) {
+      margin-left: 1.8rem;
+    }
+
+    &__title-h2 {
+      text-align: left;
+    }
+    vertical-align: top;
+  }
+}
