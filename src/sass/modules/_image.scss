@@ -1,23 +1,31 @@
 .image {
   &-header-logo {
-    float: left;
-    margin: $margin-left;
+    margin-top: 1.7rem;
+    margin-left: 1rem;
+    width: 140px;
+    height: 20px;
   }
-  &-burger-menu {
+  &-burger {
+    display: block;
     float: right;
-    margin-top: 18px;
-    margin-right: $margin-right;
+    margin-top: 28px;
+    margin-right: 16px;
   }
   &-mobile {
     width: 100%;
+    &--fadeout {
+      animation: fadeout 3s;
+    }
   }
   &-card-choose {
-    text-align: center;
     width: 72px;
     height: 72px;
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
   }
   &-article {
     width: 100%;
+    margin: auto;
   }
 }

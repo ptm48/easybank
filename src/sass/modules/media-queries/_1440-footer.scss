@@ -16,30 +16,28 @@
         width: 260px;
         height: 131px;
       }
-      &-icons {
-        position: absolute;
-        bottom: 24px;
-        left: 0;
+      &__link {
+        list-style: none;
       }
-    }
-    &__wrapper {
       &-links {
         position: relative;
         left: 280px;
+        top: 0px;
         &1 {
-          border: 1px solid red;
           position: absolute;
           left: 0;
         }
         &2 {
           position: absolute;
-          left: 120px;
+          left: 220px;
         }
       }
-    }
-
-    &__link {
-      list-style: none;
+      &-icons {
+        text-align: left;
+        position: absolute;
+        bottom: 0px;
+        left: 0;
+      }
     }
     &__wrapper-credits {
       position: absolute;

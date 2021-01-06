@@ -15,7 +15,13 @@
       hsl(192, 70%, 51%)
     );
   }
+  &-header {
+    display: none;
+    padding: 8px 0;
+  }
   &-footer {
     margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

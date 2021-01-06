@@ -1,5 +1,38 @@
 @media screen and (min-width: 1440px) {
+  .button-header {
+    font-size: 20px;
+  }
+  .nav__menu-item {
+    color: $grayish-blue;
+    font-weight: 400;
+    font-size: 20px;
+  }
   .title-h1 {
     font-size: 34px;
+  }
+  .title-h2 {
+    font-size: 32px;
+  }
+  .title-h3 {
+    font-size: 28px;
+  }
+  .title-h4 {
+    font-size: 24px;
+  }
+  .font {
+    &--small {
+      line-height: 1.5rem;
+      font-size: 18px;
+    }
+    &--smaller {
+      line-height: 1.5rem;
+      font-size: 18px;
+    }
+  }
+}
+
+.footer {
+  &__link {
+    font-size: 1.2rem;
   }
 }

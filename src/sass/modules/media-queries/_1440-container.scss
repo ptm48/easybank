@@ -7,20 +7,8 @@
       max-width: 1440px;
       padding-left: 0px;
       margin: auto;
+      background-color: rgb(250, 250, 250);
     }
-
-    &-next-gen__content-top {
-      width: 700px;
-      height: 600px;
-      float: right;
-      background-image: url("../images/bg-intro-desktop.svg");
-      background-repeat: no-repeat;
-      background-size: 150% 138%;
-      background-position: -44px -190px;
-      overflow: visible;
-      z-index: 100;
-    }
-
     &-image-mobile {
       position: relative;
       width: 90%;
@@ -28,40 +16,34 @@
       top: -75px;
       left: 120px;
     }
-
-    &-next-gen__content-bottom {
-      margin-top: 70px;
-      width: 45%;
-      float: left;
-      position: relative;
-      left: 170px;
-      top: 30px;
-
-      & .title-h1 {
-        text-align: left;
+    &-next-gen {
+      z-index: 100;
+      &__content-top {
+        width: 700px;
+        height: 600px;
+        float: right;
+        background-image: url("../images/bg-intro-desktop.svg");
+        background-repeat: no-repeat;
+        background-size: 150% 138%;
+        background-position: -44px -190px;
+        overflow: visible;
+        z-index: 100;
+      }
+      &__content-bottom {
+        margin-top: 70px;
+        width: 45%;
+        float: left;
+        position: relative;
+        left: 170px;
+        top: 30px;
       }
     }
     &-choose {
-      width: 100%;
       margin-left: 170px;
     }
     &-articles {
       margin-left: 170px;
-      width: 100%;
-    }
-    &-footer-icon-links {
-      position: relative;
-      width: 500px;
-      height: 131px;
-    }
-    &-footer-icons {
-      margin-left: 0;
-      margin-bottom: 0;
-      position: absolute;
-      bottom: 0;
-    }
-    &-footer-links {
-      margin: 0;
+      min-width: 100%;
     }
   }
 }
