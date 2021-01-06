@@ -5,14 +5,6 @@ const loader = require("sass-loader");
 
 module.exports = {
   entry: "./src/index.js",
-  output: {
-    filename: "bundle.js",
-  },
-  mode: "development",
-  devServer: {
-    contentBase: "./dist", //for development mode, output bundled content to dist folder.
-    host: "0.0.0.0",
-  },
   module: {
     rules: [
       {
@@ -31,11 +23,6 @@ module.exports = {
           },
         ],
       },
-
-      // {
-      // test: /\.svg$/,
-      // loader: "url-loader", //svg's added inline using url-loader
-      // },
       {
         test: /\.svg$/, //process images with file-loaders.
         use: [
