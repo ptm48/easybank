@@ -1,0 +1,25 @@
+.card {
+  &-next-gen {
+    &__bottom {
+      &-title {
+        margin-top: 1.5rem;
+        margin-bottom: 1.5rem;
+        margin-left: auto;
+        margin-right: auto;
+
+        &--adjust-heading {
+          margin-top: -9rem;
+          margin-bottom: 3rem;
+          margin-left: auto;
+          margin-right: auto;
+        }
+      }
+      &-button {
+        margin-top: 2rem;
+        margin-bottom: 6rem;
+        margin-left: auto;
+        margin-right: auto;
+      }
+    }
+  }
+}

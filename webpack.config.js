@@ -32,11 +32,22 @@ module.exports = {
         ],
       },
 
+      // {
+      // test: /\.svg$/,
+      // loader: "url-loader", //svg's added inline using url-loader
+      // },
       {
-        test: /\.svg$/,
-        loader: "url-loader", //svg's added inline using url-loader
+        test: /\.svg$/, //process images with file-loaders.
+        use: [
+          {
+            loader: "file-loader",
+            options: {
+              name: "[name].[ext]", //use the original name.ext as the exported name
+              outputPath: "assets/images/", //save to assets/images folder
+            },
+          },
+        ],
       },
-
       {
         test: /\.(woff|woff2|eot|ttf|otf)$/,
         use: "file-loader",

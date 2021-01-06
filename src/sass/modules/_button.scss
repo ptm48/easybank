@@ -3,7 +3,7 @@
   text-align: center;
   width: 11rem;
   padding: 13px 0;
-  margin: auto;
+  // margin: auto;
 
   &--green-blue {
     color: white;
@@ -15,7 +15,13 @@
       hsl(192, 70%, 51%)
     );
   }
+  &-header {
+    display: none;
+    padding: 8px 0;
+  }
   &-footer {
     margin-bottom: 1.5rem;
+    margin-left: auto;
+    margin-right: auto;
   }
 }

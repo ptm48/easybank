@@ -1,0 +1,35 @@
+@media screen and (min-width: 1440px) {
+  .card {
+    &-choose {
+      display: inline-block;
+      width: 20%;
+      margin-right: 2%;
+      &:first-of-type {
+        display: block;
+        width: 40%;
+      }
+      &__main-title {
+        padding-top: 48px;
+        text-align: left;
+      }
+      &__title {
+        text-align: left;
+        margin-top: 24px;
+        margin-bottom: 24px;
+        padding: 0 0 0 0;
+      }
+      &__image {
+        text-align: left;
+        margin-bottom: 0.5rem;
+      }
+      &__content {
+        width: 100%;
+        text-align: left;
+        margin-top: 32px;
+        margin-bottom: 48px;
+        margin-left: 0;
+        width: 100%;
+      }
+    }
+  }
+}

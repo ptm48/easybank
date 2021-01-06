@@ -1,5 +1,28 @@
 .nav {
-  &--hidden {
-    display: none;
+  position: fixed;
+  width: 88%;
+  margin: auto;
+  max-width: 635px;
+  height: 53vh;
+  top: 95px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 500;
+  background-color: white;
+  display: none;
+  &-links {
+    margin: auto;
+    display: inline-block;
+    text-align: center;
+  }
+  &__menu-items {
+    margin-top: 7.5vh;
+  }
+  &__menu-item {
+    margin-bottom: 2.6rem;
+    list-style: none;
+  }
+  &__links-wrapper {
+    text-align: center;
   }
 }

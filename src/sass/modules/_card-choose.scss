@@ -1,0 +1,18 @@
+.card {
+  &-choose {
+    &__main-title {
+      padding-top: 4rem;
+      margin-bottom: 1.5rem;
+      text-align: center;
+    }
+    &__title {
+      margin: 2rem 0rem 2rem 0rem;
+    }
+    &__image {
+      margin: auto;
+    }
+    &__content {
+      margin: 0rem 2rem 2rem 2rem;
+    }
+  }
+}
