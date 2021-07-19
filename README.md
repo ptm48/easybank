@@ -1,4 +1,4 @@
-# Frontend Mentor - Easybank landing page(https://ptm48.github.io/Portfolio_page/)
+# Frontend Mentor - Easybank landing page(https://ptm48.github.io/easybank/)
 
 ![Design preview for the Easybank landing page coding challenge](./design/desktop-preview.jpg)
 
